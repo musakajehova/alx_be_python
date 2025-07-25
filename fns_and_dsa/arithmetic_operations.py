@@ -1,7 +1,7 @@
 # 1. Simple Calculator with Match Case
 
 
-def perform_operation (num1: float, num2: float, operation: str) -> float:
+def perform_operation (num1, num2, operation):
     '''This performs arithmatic'''
     
 
