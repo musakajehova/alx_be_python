@@ -7,7 +7,7 @@ def convert_to_celsius(fahrenheit):
     celsius = (fahrenheit * FAHRENHEIT_TO_CELSIUS_FACTOR) + 32
     return celsius
 
-def  convert_to_fahrenheit(celsius):
+def convert_to_fahrenheit(celsius):
     '''This converts celcius to fahrenheit'''
     
     fahrenheit = (celsius - 32) * CELSIUS_TO_FAHRENHEIT_FACTOR
