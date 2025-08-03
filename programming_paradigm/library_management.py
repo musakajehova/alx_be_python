@@ -43,7 +43,9 @@ class Library:
                 print("No such book exists")
 
     
-    def return_book(self, title):
+    def return_book(self):
+        title = input("Enter title of the book")
+        
         for x in self._books:
             if (title == x.title) and (x.available() == False):
                 x.returning()
