@@ -1,6 +1,6 @@
 #book library
 
-class book:
+class Book:
     def __init__(self, title, author, _is_checked_out=False):
         self.title = title
         self.author = author
@@ -31,7 +31,7 @@ class Library:
     def __init__(self):
         self._books = []
     
-    def add_book(self, book_add: book):
+    def add_book(self, book_add: Book):
         self._books.append(book_add)
     
     def check_out_book(self, title):
